@@ -8,7 +8,7 @@ function Sidenav() {
         className="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"
         id="accordionSidebar"
       >
-        <div className="sidebar-heading mt-5">Interface</div>
+        <div className="sidebar-heading mt-5">📕</div>
 
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider my-0" />
@@ -17,7 +17,7 @@ function Sidenav() {
         <li className="nav-item active">
           <Link className="nav-link" to={"/"}>
             <i className="fas fa-fw fa-tachometer-alt"></i>
-            <span>New Books Inward</span>
+            <span>Add a Book</span>
           </Link>
         </li>
 
